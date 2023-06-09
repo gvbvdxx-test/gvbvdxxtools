@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Spritesheet Genarator (With Json)</title>
+
+
+
+</head>
+<body style="font-family:arial;">
+
+<h1>Spritesheet Genarator By Gvbvdxx</h1>
+<div id="urls"></div>
+<hr>
+<b>Preview:</b><br>
+<canvas id="prev" width=1000 height=30></canvas><br>
+<b>Sprite In-Game:</b><br>
+<canvas id="prevsprite" width=1000 height=30></canvas>
+<hr>
+<b>JSON File:</b>
+<textarea id="jsonFile"></textarea>
+<hr>
+<progress style="width:100%;" id="loading" value=0 min=0 max=100></progress>
+<label>Import Sprites/Images: <input type="file" id="file" multiple accept="image/png,image/bmp,image/icon"></label><br>
+<button id="make">Genarate Spritesheet!</button>
+<button id="download">Download</button>
+
+<script src="../urlbar.js?n=1"></script>
+
+<script src="index.js?n=1"></script>
+
+</body>
+</html>
